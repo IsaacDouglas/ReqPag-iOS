@@ -12,6 +12,10 @@ extension UILabel {
     func setFont(_ font: FontType) {
         self.font = UIFont(name: font.name, size: self.font.pointSize)
     }
+    
+    func setFont(_ font: FontType, size: CGFloat) {
+        self.font = UIFont(name: font.name, size: size)
+    }
 }
 
 extension UITextField {

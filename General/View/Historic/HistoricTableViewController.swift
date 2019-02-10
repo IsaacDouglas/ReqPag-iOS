@@ -10,7 +10,8 @@ import UIKit
 
 class HistoricTableViewController: UITableViewController {
 
-    var items: [Transaction] = []
+    private var items: [Transaction] = []
+    private var saldo: CLong = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,7 @@ class HistoricTableViewController: UITableViewController {
         tableView.allowsSelection = false
         tableView.separatorStyle = .none
         tableView.register(cell: HistoricTableViewCell.self)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.identifier)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,6 +41,7 @@ class HistoricTableViewController: UITableViewController {
             print("Sucess")
             let historic = try! JSONDecoder().decode(Transactions.self, from: data)
             self.items = historic.transacoes
+            self.saldo = historic.saldo
             self.tableView.reloadData()
         })
     }
@@ -50,17 +53,26 @@ class HistoricTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+        return items.count + 1
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: HistoricTableViewCell.identifier, for: indexPath) as! HistoricTableViewCell
-        cell.setup(transaction: items[indexPath.row])
-        return cell
+        if indexPath.row == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: UITableViewCell.identifier, for: indexPath)
+            cell.textLabel?.text = "Saldo: R$\(saldo)"
+            cell.textLabel?.setFont(.bold, size: 27)
+            cell.textLabel?.textColor = Color.one.color
+            cell.textLabel?.textAlignment = .center
+            return cell
+        } else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: HistoricTableViewCell.identifier, for: indexPath) as! HistoricTableViewCell
+            cell.setup(transaction: items[indexPath.row - 1])
+            return cell
+        }
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 135
+        return indexPath.row == 0 ? 70 : 135
     }
 
 }
