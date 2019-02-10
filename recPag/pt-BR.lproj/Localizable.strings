@@ -10,3 +10,8 @@
 "SALE" = "Receber";
 "HISTORY" = "Histórico";
 "WALLET" = "Carteira";
+"OK" = "OK";
+"CANCEL" = "Cancelar";
+"PAY_DETAIL" = "Pagamento com facilidade e segurança";
+"SALE_DETAIL" = "Receba de forma mais rápida e segura!";
+"CONFIRM_PAYMENT" = "Confirmar pagamento";

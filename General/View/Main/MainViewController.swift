@@ -79,7 +79,21 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
+        if indexPath.row == 0 {
+            let camera = CameraViewController()
+            camera.delegate = self
+            navigationController?.pushViewController(camera, animated: true)
+        }else if indexPath.row == 1 {
+            let sale = SaleViewController()
+            navigationController?.pushViewController(sale, animated: true)
+        }
     }
     
 }
 
+extension MainViewController: StreamDelegate {
+    func stream(text: String) {
+        print(text)
+    }
+    
+}

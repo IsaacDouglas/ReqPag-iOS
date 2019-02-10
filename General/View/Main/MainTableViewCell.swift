@@ -36,6 +36,7 @@ class MainTableViewCell: UITableViewCell {
         lbTitle.text = menu.title
         backView.backgroundColor = menu.color
         imgIcon.image = menu.image
+        lbSubtitle.text = menu.subtitle
     }
     
 }

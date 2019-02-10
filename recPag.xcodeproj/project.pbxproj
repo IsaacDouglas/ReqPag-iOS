@@ -37,6 +37,14 @@
 		9070C61D220FB4BE006872E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9070C61F220FB4BE006872E1 /* Localizable.strings */; };
 		9070C625220FC278006872E1 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C623220FC278006872E1 /* SaleViewController.swift */; };
 		9070C626220FC278006872E1 /* SaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9070C624220FC278006872E1 /* SaleViewController.xib */; };
+		9070C628220FDE32006872E1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C627220FDE32006872E1 /* UIViewController.swift */; };
+		9070C62C220FE3D7006872E1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C62A220FE3D7006872E1 /* CameraViewController.swift */; };
+		9070C62D220FE3D7006872E1 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9070C62B220FE3D7006872E1 /* CameraViewController.xib */; };
+		9070C630220FE46A006872E1 /* StreamDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C62F220FE46A006872E1 /* StreamDelegate.swift */; };
+		9070C639220FF0E4006872E1 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C638220FF0E4006872E1 /* UIImageView.swift */; };
+		9070C63C22100D30006872E1 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C63B22100D30006872E1 /* Payment.swift */; };
+		9070C63E22101889006872E1 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C63D22101889006872E1 /* Requester.swift */; };
+		9070C64222101FA1006872E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C64122101FA1006872E1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +81,14 @@
 		9070C620220FB4D4006872E1 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9070C623220FC278006872E1 /* SaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
 		9070C624220FC278006872E1 /* SaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaleViewController.xib; sourceTree = "<group>"; };
+		9070C627220FDE32006872E1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		9070C62A220FE3D7006872E1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9070C62B220FE3D7006872E1 /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		9070C62F220FE46A006872E1 /* StreamDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamDelegate.swift; sourceTree = "<group>"; };
+		9070C638220FF0E4006872E1 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		9070C63B22100D30006872E1 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		9070C63D22101889006872E1 /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		9070C64122101FA1006872E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +135,8 @@
 		9070C5DC220F6117006872E1 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				9070C63A22100D1B006872E1 /* Entity */,
+				9070C62E220FE45B006872E1 /* Protocol */,
 				9070C600220FA885006872E1 /* Resources */,
 				9070C5F2220F72FD006872E1 /* Extension */,
 				9070C5EF220F71AB006872E1 /* Utility */,
@@ -130,6 +148,7 @@
 		9070C5DD220F6127006872E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9070C629220FE3C4006872E1 /* Camera */,
 				9070C622220FC198006872E1 /* Sale */,
 				9070C5E6220F6EF3006872E1 /* Main */,
 				9070C5DE220F614B006872E1 /* Splash */,
@@ -167,6 +186,8 @@
 				9070C613220FAE5B006872E1 /* Menu.swift */,
 				9070C615220FAFD4006872E1 /* Color.swift */,
 				9070C619220FB435006872E1 /* Localized.swift */,
+				9070C63D22101889006872E1 /* Requester.swift */,
+				9070C64122101FA1006872E1 /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -175,12 +196,14 @@
 			isa = PBXGroup;
 			children = (
 				9070C5F3220F7314006872E1 /* UICollectionViewCell.swift */,
+				9070C627220FDE32006872E1 /* UIViewController.swift */,
 				9070C5F7220F7508006872E1 /* UICollectionView.swift */,
 				9070C60F220FACAF006872E1 /* UITableViewCell.swift */,
 				9070C611220FACD0006872E1 /* UITableView.swift */,
 				9070C5F9220F77E5006872E1 /* UIView.swift */,
 				9070C60D220FAC75006872E1 /* UILabel.swift */,
 				9070C617220FB3D5006872E1 /* String.swift */,
+				9070C638220FF0E4006872E1 /* UIImageView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +233,31 @@
 				9070C624220FC278006872E1 /* SaleViewController.xib */,
 			);
 			path = Sale;
+			sourceTree = "<group>";
+		};
+		9070C629220FE3C4006872E1 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9070C62A220FE3D7006872E1 /* CameraViewController.swift */,
+				9070C62B220FE3D7006872E1 /* CameraViewController.xib */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9070C62E220FE45B006872E1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9070C62F220FE46A006872E1 /* StreamDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		9070C63A22100D1B006872E1 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9070C63B22100D30006872E1 /* Payment.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +328,7 @@
 				9070C61D220FB4BE006872E1 /* Localizable.strings in Resources */,
 				9070C5E2220F6166006872E1 /* SplashViewController.xib in Resources */,
 				9070C5D2220F6078006872E1 /* Assets.xcassets in Resources */,
+				9070C62D220FE3D7006872E1 /* CameraViewController.xib in Resources */,
 				9070C5EE220F7027006872E1 /* MainCollectionViewCell.xib in Resources */,
 				9070C5EA220F6F1C006872E1 /* MainViewController.xib in Resources */,
 			);
@@ -296,16 +345,23 @@
 				9070C5F4220F7314006872E1 /* UICollectionViewCell.swift in Sources */,
 				9070C5E1220F6166006872E1 /* SplashViewController.swift in Sources */,
 				9070C625220FC278006872E1 /* SaleViewController.swift in Sources */,
+				9070C630220FE46A006872E1 /* StreamDelegate.swift in Sources */,
 				9070C5D0220F6077006872E1 /* recPag.xcdatamodeld in Sources */,
 				9070C5FD220FA0F8006872E1 /* MainTableViewCell.swift in Sources */,
+				9070C64222101FA1006872E1 /* Constants.swift in Sources */,
 				9070C616220FAFD4006872E1 /* Color.swift in Sources */,
+				9070C63E22101889006872E1 /* Requester.swift in Sources */,
 				9070C5ED220F7027006872E1 /* MainCollectionViewCell.swift in Sources */,
 				9070C5C8220F6077006872E1 /* AppDelegate.swift in Sources */,
 				9070C5F8220F7508006872E1 /* UICollectionView.swift in Sources */,
 				9070C606220FA98B006872E1 /* Font.swift in Sources */,
+				9070C62C220FE3D7006872E1 /* CameraViewController.swift in Sources */,
 				9070C614220FAE5B006872E1 /* Menu.swift in Sources */,
 				9070C5FA220F77E5006872E1 /* UIView.swift in Sources */,
+				9070C639220FF0E4006872E1 /* UIImageView.swift in Sources */,
+				9070C63C22100D30006872E1 /* Payment.swift in Sources */,
 				9070C60E220FAC75006872E1 /* UILabel.swift in Sources */,
+				9070C628220FDE32006872E1 /* UIViewController.swift in Sources */,
 				9070C61A220FB435006872E1 /* Localized.swift in Sources */,
 				9070C5E9220F6F1C006872E1 /* MainViewController.swift in Sources */,
 				9070C618220FB3D5006872E1 /* String.swift in Sources */,

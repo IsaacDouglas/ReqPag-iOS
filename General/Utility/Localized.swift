@@ -13,4 +13,9 @@ class Localized {
     static let sale = "SALE".localized
     static let history = "HISTORY".localized
     static let wallet = "WALLET".localized
+    static let ok = "OK".localized
+    static let cancel = "CANCEL".localized
+    static let payDetail = "PAY_DETAIL".localized
+    static let saleDetail = "SALE_DETAIL".localized
+    static let confirmPayment = "CONFIRM_PAYMENT".localized
 }
