@@ -6,15 +6,15 @@
 //  Copyright © 2019 Isaac Douglas. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Transactions: Codable {
     var transacoes: [Transaction] = []
-    var saldo: CLong = 0
+    var saldo: String = ""
 }
 
 class Transaction: Codable {
-    var valorTransacao: Int = 0
+    var valorTransacao: Double = 0
     var origem: Origin!
     var destino: Origin!
 }

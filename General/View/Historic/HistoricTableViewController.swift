@@ -11,7 +11,7 @@ import UIKit
 class HistoricTableViewController: UITableViewController {
 
     private var items: [Transaction] = []
-    private var saldo: CLong = 0
+    private var saldo: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
