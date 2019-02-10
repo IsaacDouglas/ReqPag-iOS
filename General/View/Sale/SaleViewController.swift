@@ -24,7 +24,7 @@ class SaleViewController: UIViewController {
         tfPrice.keyboardType = .decimalPad
         tfPrice.text = "0".currencyInputFormatting()
         tfPrice.setFont(.regular)
-        lbTitle.text = "Digite o valor a ser recebido"
+        lbTitle.text = Localized.enterAmountReceived
         lbTitle.setFont(.bold)
         lbTitle.textColor = .white
         
@@ -47,15 +47,12 @@ class SaleViewController: UIViewController {
     
     @objc func doneBtnFromKeyboardClicked() {
         tfPrice.resignFirstResponder()
-        if let amount = tfPrice.text {
+        if let amount = tfPrice.text, !amount.isEmpty {
             let format = amount.currencyInputFormatting()
             let result = encode(value: format)
             print(result)
             imgQRCode.generateQRCode(text: result)
-            
-            UIView.animate(withDuration: 0.3, animations: {
-                self.imgQRCode.alpha = 1
-            })
+            animate(alpha: 1)
         }
     }
 
@@ -67,8 +64,12 @@ class SaleViewController: UIViewController {
     }
     
     @IBAction func lbCurrencyBegin(_ sender: UITextField) {
+        animate(alpha: 0)
+    }
+    
+    func animate(alpha: CGFloat) {
         UIView.animate(withDuration: 0.3, animations: {
-            self.imgQRCode.alpha = 0
+            self.imgQRCode.alpha = alpha
         })
     }
     

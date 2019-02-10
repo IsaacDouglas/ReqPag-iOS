@@ -18,4 +18,5 @@ class Localized {
     static let payDetail = "PAY_DETAIL".localized
     static let saleDetail = "SALE_DETAIL".localized
     static let confirmPayment = "CONFIRM_PAYMENT".localized
+    static let enterAmountReceived = "ENTER_AMOUNT_RECEIVED".localized
 }
