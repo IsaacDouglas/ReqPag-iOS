@@ -13,6 +13,30 @@
 		9070C5D5220F6078006872E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9070C5D3220F6078006872E1 /* LaunchScreen.storyboard */; };
 		9070C5E1220F6166006872E1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5DF220F6166006872E1 /* SplashViewController.swift */; };
 		9070C5E2220F6166006872E1 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9070C5E0220F6166006872E1 /* SplashViewController.xib */; };
+		9070C5E9220F6F1C006872E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5E7220F6F1C006872E1 /* MainViewController.swift */; };
+		9070C5EA220F6F1C006872E1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9070C5E8220F6F1C006872E1 /* MainViewController.xib */; };
+		9070C5ED220F7027006872E1 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5EB220F7027006872E1 /* MainCollectionViewCell.swift */; };
+		9070C5EE220F7027006872E1 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9070C5EC220F7027006872E1 /* MainCollectionViewCell.xib */; };
+		9070C5F1220F71C3006872E1 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5F0220F71C3006872E1 /* Icon.swift */; };
+		9070C5F4220F7314006872E1 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5F3220F7314006872E1 /* UICollectionViewCell.swift */; };
+		9070C5F8220F7508006872E1 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5F7220F7508006872E1 /* UICollectionView.swift */; };
+		9070C5FA220F77E5006872E1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5F9220F77E5006872E1 /* UIView.swift */; };
+		9070C5FD220FA0F8006872E1 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C5FB220FA0F8006872E1 /* MainTableViewCell.swift */; };
+		9070C5FE220FA0F8006872E1 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9070C5FC220FA0F8006872E1 /* MainTableViewCell.xib */; };
+		9070C606220FA98B006872E1 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C605220FA98B006872E1 /* Font.swift */; };
+		9070C60A220FAADA006872E1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9070C602220FA931006872E1 /* Montserrat-Bold.ttf */; };
+		9070C60B220FAADA006872E1 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9070C603220FA931006872E1 /* Montserrat-Medium.ttf */; };
+		9070C60C220FAADA006872E1 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9070C604220FA931006872E1 /* Montserrat-Regular.ttf */; };
+		9070C60E220FAC75006872E1 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C60D220FAC75006872E1 /* UILabel.swift */; };
+		9070C610220FACAF006872E1 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C60F220FACAF006872E1 /* UITableViewCell.swift */; };
+		9070C612220FACD0006872E1 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C611220FACD0006872E1 /* UITableView.swift */; };
+		9070C614220FAE5B006872E1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C613220FAE5B006872E1 /* Menu.swift */; };
+		9070C616220FAFD4006872E1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C615220FAFD4006872E1 /* Color.swift */; };
+		9070C618220FB3D5006872E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C617220FB3D5006872E1 /* String.swift */; };
+		9070C61A220FB435006872E1 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C619220FB435006872E1 /* Localized.swift */; };
+		9070C61D220FB4BE006872E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9070C61F220FB4BE006872E1 /* Localizable.strings */; };
+		9070C625220FC278006872E1 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C623220FC278006872E1 /* SaleViewController.swift */; };
+		9070C626220FC278006872E1 /* SaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9070C624220FC278006872E1 /* SaleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +48,31 @@
 		9070C5D6220F6078006872E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9070C5DF220F6166006872E1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		9070C5E0220F6166006872E1 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		9070C5E7220F6F1C006872E1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9070C5E8220F6F1C006872E1 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9070C5EB220F7027006872E1 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		9070C5EC220F7027006872E1 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		9070C5F0220F71C3006872E1 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		9070C5F3220F7314006872E1 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		9070C5F7220F7508006872E1 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		9070C5F9220F77E5006872E1 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		9070C5FB220FA0F8006872E1 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		9070C5FC220FA0F8006872E1 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		9070C602220FA931006872E1 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		9070C603220FA931006872E1 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		9070C604220FA931006872E1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		9070C605220FA98B006872E1 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		9070C60D220FAC75006872E1 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		9070C60F220FACAF006872E1 /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		9070C611220FACD0006872E1 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		9070C613220FAE5B006872E1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		9070C615220FAFD4006872E1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9070C617220FB3D5006872E1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		9070C619220FB435006872E1 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		9070C61E220FB4BE006872E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9070C620220FB4D4006872E1 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9070C623220FC278006872E1 /* SaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		9070C624220FC278006872E1 /* SaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +111,7 @@
 				9070C5D3220F6078006872E1 /* LaunchScreen.storyboard */,
 				9070C5D6220F6078006872E1 /* Info.plist */,
 				9070C5CE220F6077006872E1 /* recPag.xcdatamodeld */,
+				9070C61F220FB4BE006872E1 /* Localizable.strings */,
 			);
 			path = recPag;
 			sourceTree = "<group>";
@@ -69,6 +119,9 @@
 		9070C5DC220F6117006872E1 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				9070C600220FA885006872E1 /* Resources */,
+				9070C5F2220F72FD006872E1 /* Extension */,
+				9070C5EF220F71AB006872E1 /* Utility */,
 				9070C5DD220F6127006872E1 /* View */,
 			);
 			path = General;
@@ -77,6 +130,8 @@
 		9070C5DD220F6127006872E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9070C622220FC198006872E1 /* Sale */,
+				9070C5E6220F6EF3006872E1 /* Main */,
 				9070C5DE220F614B006872E1 /* Splash */,
 			);
 			path = View;
@@ -89,6 +144,72 @@
 				9070C5E0220F6166006872E1 /* SplashViewController.xib */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		9070C5E6220F6EF3006872E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9070C5E7220F6F1C006872E1 /* MainViewController.swift */,
+				9070C5E8220F6F1C006872E1 /* MainViewController.xib */,
+				9070C5EB220F7027006872E1 /* MainCollectionViewCell.swift */,
+				9070C5EC220F7027006872E1 /* MainCollectionViewCell.xib */,
+				9070C5FB220FA0F8006872E1 /* MainTableViewCell.swift */,
+				9070C5FC220FA0F8006872E1 /* MainTableViewCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9070C5EF220F71AB006872E1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9070C5F0220F71C3006872E1 /* Icon.swift */,
+				9070C605220FA98B006872E1 /* Font.swift */,
+				9070C613220FAE5B006872E1 /* Menu.swift */,
+				9070C615220FAFD4006872E1 /* Color.swift */,
+				9070C619220FB435006872E1 /* Localized.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9070C5F2220F72FD006872E1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9070C5F3220F7314006872E1 /* UICollectionViewCell.swift */,
+				9070C5F7220F7508006872E1 /* UICollectionView.swift */,
+				9070C60F220FACAF006872E1 /* UITableViewCell.swift */,
+				9070C611220FACD0006872E1 /* UITableView.swift */,
+				9070C5F9220F77E5006872E1 /* UIView.swift */,
+				9070C60D220FAC75006872E1 /* UILabel.swift */,
+				9070C617220FB3D5006872E1 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9070C600220FA885006872E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9070C601220FA899006872E1 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9070C601220FA899006872E1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9070C602220FA931006872E1 /* Montserrat-Bold.ttf */,
+				9070C603220FA931006872E1 /* Montserrat-Medium.ttf */,
+				9070C604220FA931006872E1 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9070C622220FC198006872E1 /* Sale */ = {
+			isa = PBXGroup;
+			children = (
+				9070C623220FC278006872E1 /* SaleViewController.swift */,
+				9070C624220FC278006872E1 /* SaleViewController.xib */,
+			);
+			path = Sale;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +254,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 9070C5BB220F6077006872E1;
 			productRefGroup = 9070C5C5220F6077006872E1 /* Products */;
@@ -149,9 +271,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9070C60A220FAADA006872E1 /* Montserrat-Bold.ttf in Resources */,
+				9070C60B220FAADA006872E1 /* Montserrat-Medium.ttf in Resources */,
+				9070C626220FC278006872E1 /* SaleViewController.xib in Resources */,
+				9070C60C220FAADA006872E1 /* Montserrat-Regular.ttf in Resources */,
+				9070C5FE220FA0F8006872E1 /* MainTableViewCell.xib in Resources */,
 				9070C5D5220F6078006872E1 /* LaunchScreen.storyboard in Resources */,
+				9070C61D220FB4BE006872E1 /* Localizable.strings in Resources */,
 				9070C5E2220F6166006872E1 /* SplashViewController.xib in Resources */,
 				9070C5D2220F6078006872E1 /* Assets.xcassets in Resources */,
+				9070C5EE220F7027006872E1 /* MainCollectionViewCell.xib in Resources */,
+				9070C5EA220F6F1C006872E1 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +292,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9070C5F1220F71C3006872E1 /* Icon.swift in Sources */,
+				9070C5F4220F7314006872E1 /* UICollectionViewCell.swift in Sources */,
 				9070C5E1220F6166006872E1 /* SplashViewController.swift in Sources */,
+				9070C625220FC278006872E1 /* SaleViewController.swift in Sources */,
 				9070C5D0220F6077006872E1 /* recPag.xcdatamodeld in Sources */,
+				9070C5FD220FA0F8006872E1 /* MainTableViewCell.swift in Sources */,
+				9070C616220FAFD4006872E1 /* Color.swift in Sources */,
+				9070C5ED220F7027006872E1 /* MainCollectionViewCell.swift in Sources */,
 				9070C5C8220F6077006872E1 /* AppDelegate.swift in Sources */,
+				9070C5F8220F7508006872E1 /* UICollectionView.swift in Sources */,
+				9070C606220FA98B006872E1 /* Font.swift in Sources */,
+				9070C614220FAE5B006872E1 /* Menu.swift in Sources */,
+				9070C5FA220F77E5006872E1 /* UIView.swift in Sources */,
+				9070C60E220FAC75006872E1 /* UILabel.swift in Sources */,
+				9070C61A220FB435006872E1 /* Localized.swift in Sources */,
+				9070C5E9220F6F1C006872E1 /* MainViewController.swift in Sources */,
+				9070C618220FB3D5006872E1 /* String.swift in Sources */,
+				9070C610220FACAF006872E1 /* UITableViewCell.swift in Sources */,
+				9070C612220FACD0006872E1 /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +325,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		9070C61F220FB4BE006872E1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9070C61E220FB4BE006872E1 /* en */,
+				9070C620220FB4D4006872E1 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -186,6 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -247,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  recPag
+
+  Created by Isaac Douglas on 09/02/19.
+  Copyright © 2019 Isaac Douglas. All rights reserved.
+*/
+
+"PAY" = "Pagar";
+"SALE" = "Receber";
+"HISTORY" = "Histórico";
+"WALLET" = "Carteira";
