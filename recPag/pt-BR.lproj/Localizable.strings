@@ -16,3 +16,5 @@
 "SALE_DETAIL" = "Receba de forma mais rápida e segura!";
 "CONFIRM_PAYMENT" = "Confirmar pagamento";
 "ENTER_AMOUNT_RECEIVED" = "Digite o valor a ser recebido";
+"FROM" = "De";
+"TO" = "Para";

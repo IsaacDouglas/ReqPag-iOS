@@ -58,6 +58,10 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(indexPath.row)
+        if indexPath.row == 0 {
+            let historic = HistoricTableViewController()
+            navigationController?.pushViewController(historic, animated: true)
+        }
     }
 }
 

@@ -45,6 +45,10 @@
 		9070C63C22100D30006872E1 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C63B22100D30006872E1 /* Payment.swift */; };
 		9070C63E22101889006872E1 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C63D22101889006872E1 /* Requester.swift */; };
 		9070C64222101FA1006872E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070C64122101FA1006872E1 /* Constants.swift */; };
+		907865BF22103C44005BA78B /* HistoricTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907865BE22103C44005BA78B /* HistoricTableViewController.swift */; };
+		907865C122103DAE005BA78B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907865C022103DAE005BA78B /* Transaction.swift */; };
+		907865C422103E29005BA78B /* HistoricTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907865C222103E29005BA78B /* HistoricTableViewCell.swift */; };
+		907865C522103E29005BA78B /* HistoricTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907865C322103E29005BA78B /* HistoricTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +93,10 @@
 		9070C63B22100D30006872E1 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		9070C63D22101889006872E1 /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
 		9070C64122101FA1006872E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		907865BE22103C44005BA78B /* HistoricTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricTableViewController.swift; sourceTree = "<group>"; };
+		907865C022103DAE005BA78B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		907865C222103E29005BA78B /* HistoricTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricTableViewCell.swift; sourceTree = "<group>"; };
+		907865C322103E29005BA78B /* HistoricTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoricTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 		9070C5DD220F6127006872E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				907865B922103BB2005BA78B /* Historic */,
 				9070C629220FE3C4006872E1 /* Camera */,
 				9070C622220FC198006872E1 /* Sale */,
 				9070C5E6220F6EF3006872E1 /* Main */,
@@ -256,8 +265,19 @@
 			isa = PBXGroup;
 			children = (
 				9070C63B22100D30006872E1 /* Payment.swift */,
+				907865C022103DAE005BA78B /* Transaction.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		907865B922103BB2005BA78B /* Historic */ = {
+			isa = PBXGroup;
+			children = (
+				907865BE22103C44005BA78B /* HistoricTableViewController.swift */,
+				907865C222103E29005BA78B /* HistoricTableViewCell.swift */,
+				907865C322103E29005BA78B /* HistoricTableViewCell.xib */,
+			);
+			path = Historic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9070C60A220FAADA006872E1 /* Montserrat-Bold.ttf in Resources */,
+				907865C522103E29005BA78B /* HistoricTableViewCell.xib in Resources */,
 				9070C60B220FAADA006872E1 /* Montserrat-Medium.ttf in Resources */,
 				9070C626220FC278006872E1 /* SaleViewController.xib in Resources */,
 				9070C60C220FAADA006872E1 /* Montserrat-Regular.ttf in Resources */,
@@ -344,6 +365,7 @@
 				9070C5F1220F71C3006872E1 /* Icon.swift in Sources */,
 				9070C5F4220F7314006872E1 /* UICollectionViewCell.swift in Sources */,
 				9070C5E1220F6166006872E1 /* SplashViewController.swift in Sources */,
+				907865BF22103C44005BA78B /* HistoricTableViewController.swift in Sources */,
 				9070C625220FC278006872E1 /* SaleViewController.swift in Sources */,
 				9070C630220FE46A006872E1 /* StreamDelegate.swift in Sources */,
 				9070C5D0220F6077006872E1 /* recPag.xcdatamodeld in Sources */,
@@ -354,6 +376,7 @@
 				9070C5ED220F7027006872E1 /* MainCollectionViewCell.swift in Sources */,
 				9070C5C8220F6077006872E1 /* AppDelegate.swift in Sources */,
 				9070C5F8220F7508006872E1 /* UICollectionView.swift in Sources */,
+				907865C122103DAE005BA78B /* Transaction.swift in Sources */,
 				9070C606220FA98B006872E1 /* Font.swift in Sources */,
 				9070C62C220FE3D7006872E1 /* CameraViewController.swift in Sources */,
 				9070C614220FAE5B006872E1 /* Menu.swift in Sources */,
@@ -363,6 +386,7 @@
 				9070C60E220FAC75006872E1 /* UILabel.swift in Sources */,
 				9070C628220FDE32006872E1 /* UIViewController.swift in Sources */,
 				9070C61A220FB435006872E1 /* Localized.swift in Sources */,
+				907865C422103E29005BA78B /* HistoricTableViewCell.swift in Sources */,
 				9070C5E9220F6F1C006872E1 /* MainViewController.swift in Sources */,
 				9070C618220FB3D5006872E1 /* String.swift in Sources */,
 				9070C610220FACAF006872E1 /* UITableViewCell.swift in Sources */,

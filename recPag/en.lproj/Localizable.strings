@@ -16,3 +16,5 @@
 "SALE_DETAIL" = "Get it faster and safer!";
 "CONFIRM_PAYMENT" = "Confirm payment";
 "ENTER_AMOUNT_RECEIVED" = "Enter the amount to be received";
+"FROM" = "From";
+"TO" = "To";

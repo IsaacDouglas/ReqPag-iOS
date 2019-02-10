@@ -135,7 +135,7 @@ class CameraViewController: UIViewController {
         payment.destino = destination
         payment.descricao = "R$\(value)"
         
-        Requester.postRequest(url: Constants.url, payment: payment, onError: {_ in
+        Requester.postRequest(url: Constants.urlPayment, payment: payment, onError: {_ in
             print("Error")
         }, onSucess: {_ in
             print("Sucess")
